@@ -1,0 +1,149 @@
+.container {
+  max-width: 620px;
+  margin: 20px auto;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #202124;
+}
+
+.heading {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #5f6368;
+  margin: 0 0 16px 0;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 16px;
+  background: #ffffff;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.sectionTitle {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 12px;
+  background-color: #e8f0fe;
+  color: #1a73e8;
+}
+
+.btnPrimary {
+  padding: 8px 14px;
+  background-color: #1a73e8;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+
+.btnPrimary:hover {
+  background-color: #1557b0;
+}
+
+.btnSecondary {
+  padding: 8px 14px;
+  background-color: #ffffff;
+  color: #3c4043;
+  border: 1px solid #dadce0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modalContent {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 24px;
+  max-width: 440px;
+  width: 90%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.modalTitle {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+}
+
+.modalBody {
+  font-size: 13px;
+  color: #5f6368;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.compoundItem {
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+
+.compoundHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  background-color: #f8f9fa;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.compoundBody {
+  padding: 10px 14px;
+  font-size: 12px;
+  color: #444;
+  border-top: 1px solid #f1f3f4;
+}
+
+.trackerBox {
+  border: 1px dashed #dadce0;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  padding: 16px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.hocWrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background-color: #f1f3f4;
+  border-radius: 6px;
+  font-size: 13px;
+}
+

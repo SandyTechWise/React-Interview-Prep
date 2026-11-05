@@ -1,0 +1,155 @@
+.container {
+  max-width: 540px;
+  margin: 20px auto;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #202124;
+}
+
+.heading {
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #5f6368;
+  margin: 0 0 16px 0;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 16px;
+  background: #ffffff;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.itemRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #f1f3f4;
+}
+
+.itemRow:last-child {
+  border-bottom: none;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemName {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.itemPrice {
+  font-size: 12px;
+  color: #5f6368;
+}
+
+.quantityControls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btnSmall {
+  width: 28px;
+  height: 28px;
+  border: 1px solid #dadce0;
+  background: #ffffff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+
+.btnSmall:hover {
+  background: #f1f3f4;
+}
+
+.qtyText {
+  font-size: 13px;
+  font-weight: 600;
+  min-width: 18px;
+  text-align: center;
+}
+
+.btnDelete {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #d93025;
+  margin-left: 8px;
+}
+
+.actionsBar {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.btnPrimary {
+  padding: 8px 14px;
+  background-color: #1a73e8;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.btnSecondary {
+  padding: 8px 14px;
+  background-color: #ffffff;
+  color: #3c4043;
+  border: 1px solid #dadce0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.summaryBox {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.summaryLine {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.summaryLineTotal {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  border-top: 1px solid #dadce0;
+  padding-top: 6px;
+  margin-top: 6px;
+}
+
+.batchBadge {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 4px 8px;
+  background: #e8f0fe;
+  color: #1a73e8;
+  border-radius: 4px;
+  font-size: 12px;
+}
+

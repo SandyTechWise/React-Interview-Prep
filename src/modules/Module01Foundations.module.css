@@ -1,0 +1,76 @@
+.card {
+  max-width: 480px;
+  margin: 20px auto;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #ffffff;
+  color: #202124;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #eee;
+}
+
+.name {
+  margin: 0 0 4px 0;
+  font-size: 20px;
+}
+
+.role {
+  margin: 0 0 8px 0;
+  color: #5f6368;
+  font-size: 14px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badgeOnline {
+  background-color: #e6f4ea;
+  color: #137333;
+}
+
+.badgeOffline {
+  background-color: #fce8e6;
+  color: #c5221f;
+}
+
+.skillsTitle {
+  margin: 16px 0 8px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #70757a;
+}
+
+.skillsList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.skillItem {
+  background: #f1f3f4;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
